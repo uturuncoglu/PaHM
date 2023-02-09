@@ -70,7 +70,7 @@ if(NOT _DEFINED_NETCDF)
 endif()
   
 if(NOT PROG_comps_lang)
-  set(PROG_comps_lang C Fortran)
+  set(PROG_comps_lang Fortran)
 endif()
 find_package(NetCDF REQUIRED COMPONENTS ${PROG_comps_lang})
 
